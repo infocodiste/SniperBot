@@ -1,0 +1,22 @@
+{
+  "name": "snipe",
+  "version": "4.0.0",
+  "description": "",
+  "main": "snipe.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node snipe.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pancakeswap-libs/sdk": "^1.0.1",
+    "chalk": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.0.32"
+  }
+}
