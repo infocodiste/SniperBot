@@ -183,7 +183,7 @@ const monitorRugPull = async function (balance, currentNonce) {
       )
 
       await selltx.wait();
-      console.log(chalk.green(`Sucessfully sold all the tokens before rug pull !\n`));
+      console.log(chalk.green(`Successfully sold all the tokens before rug pull !\n`));
       console.log(`You can check the transaction here:`);
       console.log(`https://bscscan.com/address/${myAddress}`);
       process.exit(0);
@@ -294,7 +294,7 @@ if(dxsalePresale == 1){
         await buytx.wait() 
         }
      
-        console.log(chalk.green('Sucessfully bought the token!\n'))
+        console.log(chalk.green('Successfully bought the token!\n'))
       
         let balance = await getTokenBalance(tokenAddress, myAddress, provider)
         console.log(chalk.green(`Total Token balance is ${chalk.yellow(parseFloat(ethers.utils.formatUnits(balance, tokenDecimals)).toFixed(6))}\n`))
@@ -310,7 +310,7 @@ if(dxsalePresale == 1){
                 { gasLimit: gasLimit, gasPrice: gasPrice, nonce: currentNonce++ }
               )
               await selltx.wait()
-              console.log(chalk.green(`Sucessfully sold all the tokens !\n`))
+              console.log(chalk.green(`Successfully sold all the tokens !\n`))
               console.log(`You can check the transaction here:`)
               console.log(`https://bscscan.com/address/${myAddress}`)
               process.exit(0)
@@ -365,7 +365,7 @@ if(dxsalePresale == 1){
               await buytx.wait() 
       }
 
-   console.log(chalk.green('Sucessfully bought the token!\n'))
+   console.log(chalk.green('Successfully bought the token!\n'))
    const balance = await getTokenBalance(tokenAddress, myAddress, provider)
 
    console.log(chalk.green(`Total Token balance is ${chalk.yellow(parseFloat(ethers.utils.formatUnits(balance, tokenDecimals)).toFixed(6))}\n`))
@@ -383,7 +383,7 @@ if(dxsalePresale == 1){
           )
       
           await selltx.wait()
-          console.log(chalk.green(`Sucessfully sold all the tokens !\n`))
+          console.log(chalk.green(`Successfully sold all the tokens !\n`))
           console.log(`You can check the transaction here:`)
           console.log(`https://bscscan.com/address/${myAddress}`)
           process.exit(0)
@@ -507,7 +507,7 @@ if(dxsalePresale == 1){
       await buytx.wait() 
       }
       
-      console.log(chalk.green('Sucessfully bought the token!\n'))
+      console.log(chalk.green('Successfully bought the token!\n'))
     
       let balance = await getTokenBalance(tokenAddress, myAddress, provider)
       console.log(chalk.green(`Total Token balance is ${chalk.yellow(parseFloat(ethers.utils.formatUnits(balance, tokenDecimals)).toFixed(6))}\n`))
@@ -523,7 +523,7 @@ if(dxsalePresale == 1){
               { gasLimit: gasLimit, gasPrice: gasPrice, nonce: currentNonce++ }
             )
             await selltx.wait()
-            console.log(chalk.green(`Sucessfully sold all the tokens !\n`))
+            console.log(chalk.green(`Successfully sold all the tokens !\n`))
             console.log(`You can check the transaction here:`)
             console.log(`https://bscscan.com/address/${myAddress}`)
             process.exit(0)
@@ -592,7 +592,7 @@ if(dxsalePresale == 1){
            await buytx.wait() 
            }
          
-               console.log(chalk.green('Sucessfully bought the token!\n'))
+               console.log(chalk.green('Successfully bought the token!\n'))
                const balance = await getTokenBalance(tokenAddress, myAddress, provider)
          
                console.log(chalk.green(`Total Token balance is ${chalk.yellow(parseFloat(ethers.utils.formatUnits(balance, tokenDecimals)).toFixed(6))}\n`))
@@ -610,7 +610,7 @@ if(dxsalePresale == 1){
                  )
              
                  await selltx.wait()
-                 console.log(chalk.green(`Sucessfully sold all the tokens !\n`))
+                 console.log(chalk.green(`Successfully sold all the tokens !\n`))
                  console.log(`You can check the transaction here:`)
                  console.log(`https://bscscan.com/address/${myAddress}`)
                  process.exit(0)
@@ -674,7 +674,7 @@ if(dxsalePresale == 1){
          await buytx.wait() 
          }
        
-             console.log(chalk.green('Sucessfully bought the token!\n'))
+             console.log(chalk.green('Successfully bought the token!\n'))
              const balance = await getTokenBalance(tokenAddress, myAddress, provider)
        
              console.log(chalk.green(`Total Token balance is ${chalk.yellow(parseFloat(ethers.utils.formatUnits(balance, tokenDecimals)).toFixed(6))}\n`))
@@ -692,7 +692,7 @@ if(dxsalePresale == 1){
                )
            
                await selltx.wait()
-               console.log(chalk.green(`Sucessfully sold all the tokens !\n`))
+               console.log(chalk.green(`Successfully sold all the tokens !\n`))
                console.log(`You can check the transaction here:`)
                console.log(`https://bscscan.com/address/${myAddress}`)
                process.exit(0)
